@@ -4,7 +4,7 @@ Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
-  config.secret_key = '376d8dd6886338e7b43f0eeb4fec4f53d24a6ec82835e0e771108e2a1cc1acbf52b882a5fe79ac0bc80bcfd1c05fbd58f5a9cd9e7b9581f8c78eeb196ae12a54'
+  config.secret_key = '30c6f7073421deffe969112f7786f601e99627892be7a784bc5930f790ddd2d3eba7b25c9c8080f8de5537046e46c49e0cb7ddededb19e2baa32ced091f3f9d0'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -98,7 +98,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = '147b944a77553a0f69beac42af8a0e34be96dd84c016a6d01e9c417ba255be98c4b7ebf07de3837674d1e9cdb1d7d532bf35e094221f997b7a28d57fa126fd61'
+  # config.pepper = 'b7160a2c376b2ebb56705496f14b73fb283ab209ac87d0602b3eef780eddb46ca607f252212856ffe27d5889c65d5c7e869b922873bd04f0e3b75db053478817'
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
